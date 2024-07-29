@@ -3,22 +3,22 @@ package main
 import "fmt"
 
 //切片
-func main() {
-	//createSlice()
-	//initSlice()
-
-	//makeForSlice()
-
-	//structSlice()
-
-	//appendSlice()
-
-	resize()
-
-	//copyslice()
-
-	//traverse()
-}
+//func main() {
+//	//createSlice()
+//	//initSlice()
+//
+//	//makeForSlice()
+//
+//	//structSlice()
+//
+//	//appendSlice()
+//
+//	//resize()
+//
+//	//copyslice()
+//
+//	//traverse()
+//}
 
 //创建切片各种方式
 func createSlice() {
