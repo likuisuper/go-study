@@ -83,6 +83,9 @@ func main() {
 		fmt.Println(k, "=>", v.name)
 	}
 	fmt.Printf("m=%v\n", m)
+
+	p := newPerson("lllk", "test", 29)
+	fmt.Printf("%#v\n", p)
 }
 
 func anonyStruct() {
@@ -109,4 +112,16 @@ func structMemory() {
 	fmt.Printf("n.b %p\n", &n.b)
 	fmt.Printf("n.c %p\n", &n.c)
 	fmt.Printf("n.d %p\n", &n.d)
+}
+
+/*
+struct是值类型，如果结构体比较复杂的话，值拷贝性能开销会比较大，
+所以该构造函数返回的是结构体指针类型
+*/
+func newPerson(name, city string, age int8) *person {
+	return &person{
+		name: name,
+		city: city,
+		age:  age,
+	}
 }
