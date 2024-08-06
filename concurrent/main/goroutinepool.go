@@ -24,7 +24,7 @@ type Result struct {
 	sum int
 }
 
-func main() {
+func main9() {
 	//1、job管道
 	//为什么要使用chan *job而不是chan job呢？
 	//chan *job是一个指向job结构体实例的指针类型的通道，向这种通道发送数据时，实际是发送指向job结构体的指针
