@@ -1,0 +1,38 @@
+2024-09-06 09:51:16 [INF] [main.go:45] [main.main] server run:127.0.0.1:8081
+2024-09-06 09:51:16 [INF] [main.go:48] [main.main] 服务启动
+2024-09-06 10:00:31 [INF] [main.go:45] [main.main] server run:127.0.0.1:8081
+2024-09-06 10:00:31 [INF] [main.go:48] [main.main] 服务启动
+2024-09-06 10:05:16 [INF] [main.go:45] [main.main] server run:127.0.0.1:8081
+2024-09-06 10:05:16 [INF] [main.go:48] [main.main] 服务启动
+2024-09-06 10:10:42 [INF] [main.go:45] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:10:42 [INF] [main.go:48] [main.main] 服务启动
+2024-09-06 10:17:50 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:17:50 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:29:07 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:29:07 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:30:45 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:30:45 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:32:21 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:32:21 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:41:18 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:41:18 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:48:42 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:48:42 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:51:26 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:51:26 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:51:51 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:51:51 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:53:21 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:53:21 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:55:47 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:55:47 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:57:28 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:57:28 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 10:58:18 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 10:58:18 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 11:00:39 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 11:00:39 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 13:37:11 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 13:37:11 [INF] [main.go:50] [main.main] 服务启动
+2024-09-06 14:02:41 [INF] [main.go:47] [main.main] server run:127.0.0.1:8080
+2024-09-06 14:02:41 [INF] [main.go:50] [main.main] 服务启动

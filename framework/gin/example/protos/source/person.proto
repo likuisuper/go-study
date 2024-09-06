@@ -1,0 +1,12 @@
+syntax = "proto3";
+package protos;
+option go_package = "./";
+
+message Person{
+  //字段编码值，值越大，编码的时间和空间效率就越低
+  //字段名用小写，转为go文件后自动变为大写
+  int64 user_id = 1;
+  string user_name = 2;
+  string sex = 3;
+  string email = 4;
+}

@@ -1,0 +1,73 @@
+definitions:
+  model.Person:
+    properties:
+      email:
+        type: string
+      sex:
+        type: string
+      userId:
+        type: integer
+      userName:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /v1/del/{id}:
+    delete:
+      responses: {}
+      summary: 删除
+  /v1/person/:
+    get:
+      responses: {}
+      summary: 获取人物
+      tags:
+      - person
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 人物添加req
+        in: body
+        name: person
+        required: true
+        schema:
+          $ref: '#/definitions/model.Person'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: 添加
+      tags:
+      - person
+  /v1/person/{id}:
+    get:
+      parameters:
+      - description: Person UserId
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: 通过id获取人物
+      tags:
+      - person
+    put:
+      responses: {}
+      summary: 更新人物
+swagger: "2.0"
